@@ -1,0 +1,17 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100;
+}
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ html, body, #root { height: 100%; }
+ :root{
+--accent: #4f46e5; /* violet-600 */
+}
